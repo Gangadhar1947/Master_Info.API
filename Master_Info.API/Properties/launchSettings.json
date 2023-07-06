@@ -1,0 +1,34 @@
+﻿{
+  "profiles": {
+    "Employee_Info.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CB_HOST": "localhost",
+        "CB_USER": "services",
+        "CB_PSWD": "BSHtool2019!"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5017"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24232",
+      "sslPort": 0
+    }
+  }
+}
